@@ -1,0 +1,12 @@
+#dialog_body(data-bind="visible: dialog_opened")
+  %p yeah
+  %div(id="ytPlayer")
+  %br
+  %button(data-bind="click: closeDialog.bind($data)") close
+
+#dialog_back(data-bind="visible: dialog_opened")
+
+.main_contents
+  %h2 test h2
+  %button(data-bind="click: selectVideo.bind($data, 'OCRRH1DMpPM')") AC0
+  %button(data-bind="click: selectVideo.bind($data, 'iWRdMX1VaZA')") AC5
