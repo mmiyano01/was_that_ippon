@@ -1,47 +1,47 @@
 {
   "video_info": [
     {
-      "name": "video1",
-      "url": "",
-      "start_at": "",
-      "end_at": "",
-      "result": "",
+      "name": "Georgia vs Germany World Judo Team Championships 2015 - Astana (1)",
+      "video_id": "LzPH9FILeCQ",
+      "start_at": 1860,
+      "end_at": 1869,
+      "result": "ippon",
       "level": "",
       "added_at": ""
     },
     {
-      "name": "video2",
-      "url": "",
-      "start_at": "",
-      "end_at": "",
-      "result": "",
+      "name": "Georgia vs Japan - Semi-Final - Judo World Championship Teams Chelyabinsk 2014 (1)",
+      "video_id": "xRUdNHNHmLc",
+      "start_at": 1392,
+      "end_at": 1400,
+      "result": "yuko",
       "level": "",
       "added_at": ""
     },
     {
-      "name": "video3",
-      "url": "",
-      "start_at": "",
-      "end_at": "",
-      "result": "",
+      "name": "Judo Highlights - Baku Grand Slam 2015 (1)",
+      "video_id": "UUVHuBxijhQ",
+      "start_at": 1009,
+      "end_at": 1012,
+      "result": "wazaari",
       "level": "",
       "added_at": ""
     },
     {
-      "name": "video4",
-      "url": "",
-      "start_at": "",
-      "end_at": "",
-      "result": "",
+      "name": "Route to the Final - Men's Team Japan - Astana Judo World Team Championships 2015 (1)",
+      "video_id": "C9AaeTqBRxs",
+      "start_at": 90,
+      "end_at": 97,
+      "result": "nothing",
       "level": "",
       "added_at": ""
     },
     {
-      "name": "video5",
-      "url": "",
-      "start_at": "",
-      "end_at": "",
-      "result": "",
+      "name": "Highlights Suzuki WORLD JUDO Championships 2017 (1)",
+      "video_id": "mIahV-ooji4",
+      "start_at": 748,
+      "end_at": 754,
+      "result": "wazaari",
       "level": "",
       "added_at": ""
     }

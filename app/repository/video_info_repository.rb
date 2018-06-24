@@ -8,7 +8,7 @@ class VideoInfoRepository
     response["video_info"].inject([]) {|z, info|
       z << VideoInfoEntity.new(
         info["name"], 
-        info["url"], 
+        info["video_id"], 
         info["start_at"], 
         info["end_at"], 
         info["result"], 

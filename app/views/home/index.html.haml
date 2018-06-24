@@ -1,12 +1,24 @@
 #dialog_body(data-bind="visible: dialog_opened")
-  %p yeah
   %div(id="ytPlayer")
   %br
+  
+  %button(data-bind="click: clickedResult.bind($data, 'ippon')") IPPON(一本)
+  %br
+  %button(data-bind="click: clickedResult.bind($data, 'yuko')") YUKO(有効)
+  %br
+  %button(data-bind="click: clickedResult.bind($data, 'wazaari')") WAZAARI(技あり)
+  %br  
+  %button(data-bind="click: clickedResult.bind($data, 'nothing')") Non of the above
+  %br  
+  %p(data-bind="text: result()")
+  %br  
   %button(data-bind="click: closeDialog.bind($data)") close
 
 #dialog_back(data-bind="visible: dialog_opened")
 
 .main_contents
   %h2 test h2
-  %button(data-bind="click: selectVideo.bind($data, 'OCRRH1DMpPM')") AC0
-  %button(data-bind="click: selectVideo.bind($data, 'iWRdMX1VaZA')") AC5
+
+  - @video_info.each do |info|
+    %button(data-bind="click: selectVideo.bind($data, '#{info.video_id}', '#{info.result}', #{info.start_at}, #{info.end_at})")= info.name
+    %br

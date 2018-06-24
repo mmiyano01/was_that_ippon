@@ -1,9 +1,9 @@
 class VideoInfoEntity 
-  attr_reader :name, :url, :start_at, :end_at, :result, :level, :added_at
+  attr_reader :name, :video_id, :start_at, :end_at, :result, :level, :added_at
   
-  def initialize(name, url, start_at, end_at, result, level, added_at)
+  def initialize(name, video_id, start_at, end_at, result, level, added_at)
     @name = name
-    @url = url
+    @video_id = video_id
     @start_at = start_at
     @end_at = end_at
     @result = result
